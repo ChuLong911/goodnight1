@@ -47,7 +47,7 @@ const wishes=[
 
 "Đừng ngủ quá giờ trưa nhé ☀️",
 
-"Tôi cho phép em được ngủ ngon🌙"
+"Tôi cho phép em được ngủ ngon😁"
 
 ]
 
@@ -92,7 +92,7 @@ let heart=document.createElement("div")
 
 heart.className="heart"
 
-heart.innerHTML="💖"
+heart.innerHTML="😴"
 
 heart.style.left=(x+Math.random()*50)+"px"
 
@@ -105,6 +105,29 @@ setTimeout(()=>{
 heart.remove()
 
 },3000)
+
+}
+
+/* tim bay */
+
+
+function createHeart(){
+
+const heart=document.createElement("div")
+
+heart.className="heart-up"
+
+heart.innerHTML="❤️"
+
+heart.style.left=Math.random()*100+"vw"
+
+heart.style.fontSize=(15+Math.random()*20)+"px"
+
+heart.style.animationDuration=(4+Math.random()*3)+"s"
+
+world.appendChild(heart)
+
+setTimeout(()=>heart.remove(),7000)
 
 }
 
