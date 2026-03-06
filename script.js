@@ -43,12 +43,11 @@ setInterval(createMeteor,900)
 /* lời chúc */
 
 const wishes=[
+"Mong em có giấc mơ đẹp ✨",
 
-"Chúc bạn ngủ thật ngon 🌙",
+"Đừng ngủ quá giờ trưa nhé ☀️",
 
-"Mong bạn có giấc mơ đẹp ✨",
-
-"Ngày mai thức dậy thật vui ☀️"
+"Tôi cho phép em được ngủ ngon🌙"
 
 ]
 
