@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Chúc ngủ ngon 🌙</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="galaxy"></div>
+
+<audio id="music" loop>
+<source src="music/night.mp3" type="audio/mpeg">
+</audio>
+
+
+<!-- mặt trăng -->
+
+<img src="images/moon.png" class="moon">
+<!-- chữ hướng dẫn -->
+
+<div class="hint">
+Hãy bấm vào một hành tinh để nhận lời chúc ✨
+</div>
+
+
+<!-- hành tinh -->
+
+<img src="images/planet1.png" class="planet p1" onclick="showWish(this,1)">
+<img src="images/planet2.png" class="planet p2" onclick="showWish(this,2)">
+<img src="images/planet3.png" class="planet p3" onclick="showWish(this,3)">
+
+
+<!-- thiệp -->
+
+<div id="card"></div>
+
+
+<!-- thỏ -->
+
+<img src="images/bunny.gif" class="bunny">
+<img src="images/b123.gif" class="b123">
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
